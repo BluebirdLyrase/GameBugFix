@@ -1,0 +1,351 @@
+[
+    {
+    "name" : "Blue Reflection",
+    "Problem" : "Double Buffter V-Sync cause fps spike",
+    "Solution" : "NVidiaProfileInspector setting ตามรูป",
+    "Pic" : "pic/BlueReflection.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Call of duty Black ops 3",
+    "Problem" : "fps spike",
+    "Solution" : "Play in borderless window",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "RWBY: Grimm Eclipse",
+    "Problem" : "dpad not working",
+    "Solution" : "Navigate to your RWBY install folder, right-click the rwby-ge.exe,",
+    "Solution2" : " go to compatibility and chose compatibility mode for windows 7.",
+    "Pic" : "pic/RWBY.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Aarklash: Legacy",
+    "Problem" : "Screen Over Lenght",
+    "Solution" : "press alt + enter",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "F.e.a.r + Expantion",
+    "Problem" : "Can't walk",
+    "Solution" : "restore keybind setting",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "F.e.a.r + Expantion",
+    "Problem" : "Low FPS",
+    "Solution" : "put dinput8.dll",
+    "Pic" : "",
+    "File" : "file/dinput8.dll"
+    },
+
+    {
+    "name" : "F.e.a.r + Expantion",
+    "Problem" : "disconnect form server",
+    "Solution" : "Force restart",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "F.e.a.r",
+    "Problem" : "Freez at 03 TheL",
+    "Solution" : "Load  quicksave",
+    "Pic" : "",
+    "File" : "file/dinput8.dll"
+    },
+
+    {
+    "name" : "F.E.A.R.: Extraction Point",
+    "Problem" : "can't FullHD",
+    "Solution" : "Change in C:/Users/Public/Documents/TimeGate Studios/FEARXP/settings.cfg",
+    "Pic" : "pic/FearEx.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "F.E.A.R 2 Project Origin",
+    "Problem" : "Too fast mouse",
+    "Solution" : "Extract the file X3DAudio1_5.dll to your main game folder.",
+    "Solution2" : "At C:/Program Files (x86)/Steam/steamapps/common/FEAR2/",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Tom Clancy's Ghost Recon Wildlands",
+    "Problem" : "Bad Framerate drop",
+    "Solution" : "Play in borderless mode with no v-sync",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Resident Evil Revelations 2 / Biohazard Revelations",
+    "Problem" : "Final boss freez",
+    "Solution" : "Change to 30fps before entering boss area",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Darksider 2",
+    "Problem" : "Freez at final boss cutscene",
+    "Solution" : "use Beta pacth",
+    "Pic" : "pic/Darksider2.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Call of Duty: Ghosts",
+    "Problem" : "",
+    "Solution" : "Go to Steam/SteamApps/common/Call of Duty Ghosts/players2.",
+    "Solution2" : "Open config_mp.cfg. Change seta r_elevatedPriority `1` to seta r_elevatedPriority `0`.",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Borderland 2",
+    "Problem" : "FPS Drop",
+    "Solution" : "setting : PhysX = low",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Borderlands: The Pre-Sequel",
+    "Problem" : "FPS Drop",
+    "Solution" : "setting : PhysX = low",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Batman™: Arkham Origins",
+    "Problem" : "FPS Drop",
+    "Solution" : "setting : Physic = off",
+    "Pic" : "",
+    "File" : ""
+    },
+    
+
+    {
+    "name" : "SPORE",
+    "Problem" : "game won't lunch",
+    "Solution" : "use this solution",
+    "Pic" : "pic/Spore.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Mass Effect",
+    "Problem" : "free DLC",
+    "Solution" : "https://help.ea.com/en-us/help/origin/origin/download-dlc-for-classic-origin-games/#masseffect",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Mass Effect",
+    "Problem" : "Game won't lunch",
+    "Solution" : "I went to 'Steam>SteamApps>common>Mass Effect>Binaries and i right click on 'Mass Effect.exe' then i change the compatibility as if it was windows xp.",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Clive Baker Undying",
+    "Problem" : "Fast mouse",
+    "Solution" : "C:/Program Files (x86)/GOG Galaxy/Games/Clive Barkers Undying/System/System.ini",
+    "Solution2" : "UseDirectInput=True",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Fallout4",
+    "Problem" : "Blackscreen on start-up",
+    "Solution" : "Borderless window",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Fallout4",
+    "Problem" : "Bug 1",
+    "Solution" : "",
+    "Pic" : "",
+    "File" : "file/Fallout4Mod/UnofficialPatch.rar"
+    },
+
+    {
+    "name" : "Fallout4",
+    "Problem" : "Bug 2",
+    "Solution" : "",
+    "Pic" : "",
+    "File" : "file/Fallout4Mod/NoEndlessGratitude.rar"
+    },
+
+    {
+    "name" : "Fallout4",
+    "Problem" : "Resolusion bug",
+    "Solution" : "Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Lichdom: Battlemage / CrashHandler",
+    "Problem" : "Resolusion bug",
+    "Solution" : "on luncher Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Hyperdimension Neptunia Re;Birth1",
+    "Problem" : "Resolusion bug",
+    "Solution" : "on luncher Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Hyperdimension Neptunia Re;Birth2 Sisters Generation",
+    "Problem" : "Resolusion bug",
+    "Solution" : "NeptuniaReBirth2.exe Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Adventure Time The Secret Of The Nameless Kingdom",
+    "Problem" : "Resolusion bug",
+    "Solution" : " AT3.exe  Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Megadimension Neptunia VII",
+    "Problem" : "Resolusion bug",
+    "Solution" : "on luncher Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Hyperdimension Neptunia Re;Birth3",
+    "Problem" : "Resolusion bug",
+    "Solution" : " Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "CyberdimensionNeptunia4GoddessesOnline",
+    "Problem" : "Resolusion bug",
+    "Solution" : " Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "OnechanbaraZ2",
+    "Problem" : "Resolusion bug",
+    "Solution" : "OnechanbaraZ2.exe Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.",
+    "Pic" : "pic/HDMI.png",
+    "File" : ""
+    },
+
+    {
+    "name" : "Prototype 1",
+    "Problem" : "FPS / Resolution limited",
+    "Solution" : "use Forcefix",
+    "Pic" : "",
+    "File" : "file/ForceFix.exe"
+    },
+
+    {
+    "name" : "Prototype 2",
+    "Problem" : "FPS / Resolution limited",
+    "Solution" : "use Forcefix",
+    "Pic" : "",
+    "File" : "file/ForceFix.exe"
+    },
+
+    {
+    "name" : "Metal Gear Rissing",
+    "Problem" : "FPS / Resolution limited",
+    "Solution" : "use Forcefix",
+    "Pic" : "",
+    "File" : "file/ForceFix.exe"
+    },
+
+    {
+    "name" : "Crysis",
+    "Problem" : "FPS / Resolution limited",
+    "Solution" : "use Forcefix",
+    "Pic" : "",
+    "File" : "file/ForceFix.exe"
+    },
+
+    {
+    "name" : "Crysis war head",
+    "Problem" : "FPS / Resolution limited",
+    "Solution" : "use Forcefix",
+    "Pic" : "",
+    "File" : "file/ForceFix.exe"
+    },
+
+    {
+    "name" : "Crysis 2",
+    "Problem" : "FPS / Resolution limited",
+    "Solution" : "use Forcefix",
+    "Pic" : "",
+    "File" : "file/ForceFix.exe"
+    },
+
+    {
+    "name" : "Syndicate",
+    "Problem" : "Shuttering",
+    "Solution" : "close in-game V-sync, turn on V-sync in control panels",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Nier automata",
+    "Problem" : "BUG Controller not working",
+    "Solution" : "turn off Steam controller configuration",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Prince of persia",
+    "Problem" : "BUG Controller not working",
+    "Solution" : "turn off Steam controller configuration",
+    "Pic" : "",
+    "File" : ""
+    },
+
+    {
+    "name" : "Assassin creed 2 ",
+    "Problem" : "BUG Controller not working",
+    "Solution" : "turn off Steam controller configuration",
+    "Pic" : "",
+    "File" : ""
+    }
+
+]

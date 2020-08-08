@@ -1,0 +1,47 @@
+[Command and Conquer 3 Tiberium Wars]
+-To mod it
+How to start a C&C3 mod if you got The Ultimate Collection
+1. Get to the mod browser
+-Install Bibber's Fixed Launchers for TUC.
+-In Origin, go to [Origin] -> [Application Settings] -> [Advanced]. You will see a section at the top that says "Your games will be installed to the following location". Select and copy that location.
+-Open a Windows file browser window, paste the copied location in the address bar, and press [Enter] to go there.
+-Go into the "Command and Conquer 3 TW and KW\Command Conquer 3 Tiberium Wars" folder.
+-Drag "CNC3.exe" to your desktop, and hold down both [Ctrl] and [Alt] before releasing it, to create a shortcut.
+-Rename the shortcut to "C&C3 Control Panel"
+-Open the shortcut's properties, and behind everything on the "Target" line (including quotes), add a space and then "-ui" (without the quotes)
+
+Now you can open the C&C3 control panel, click "Game Browser", and open its Mods tab.
+
+
+2. Adding mods to C&C3's mods tab
+
+-Open a Windows file browser window, type (or paste) "%USERPROFILE%\Documents\" in the address bar (again, without the quotes), and press [Enter] to go there. This should go to your Documents folder (In Windows 7, anyway).
+-If there is no folder called "Command and Conquer 3 Tiberium Wars" in there, create it.
+-Inside that folder, make sure you have a folder called "Mods"
+-Inside that folder, create a folder for the mod, and put the mod's files inside it. Make sure the .skudef file is inside that mod folder, and not deeper down the tree.
+
+(Re)open the Game Browser on the C&C3 control panel, and the mod should show up in there.
+
+ 
+
+ 
+
+Extra: how to make a shortcut straight to a mod
+
+ 
+
+It is possible to launch C&C3 mods without using the C&C3 Control Panel, though the instructions for this are largely the same as to get the C&C3 control panel link.
+
+ 
+
+-Create a shortcut to CNC3.exe as described in the first section.
+
+-Open the shortcut's properties, and behind everything on the "Target" line (including quotes), add a space, then "-modconfig" (without the quotes), then another space, and then the full path of the control file of the mod (surrounded by quotes). It's the file with the .skudef extension.
+
+ 
+
+So if your C&C3 is in "C:\Games\Origin Games\Command and Conquer 3 TW and KW\Command Conquer 3 Tiberium Wars" and your mod is in "C:\Games\mods\Tiberian Dawn", that target line will end up looking like this:
+
+ 
+
+"C:\Games\Origin Games\Command and Conquer 3 TW and KW\Command Conquer 3 Tiberium Wars\CNC3.exe" -modconfig "C:\Games\mods\Tiberian Dawn\TiberianDawn_0.2.SkuDef"

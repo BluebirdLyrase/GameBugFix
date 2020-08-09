@@ -123,7 +123,7 @@ go to compatibility and chose compatibility mode for windows 7.
 [Aarklash: Legacy]
 จอเกิน กด alt + enter
 
-[F.e.a.r + ภาคเสริม] [Condemned: Criminal Origins]
+[F.e.a.r + ภาคเสริม] [Condemned: Criminal Origins][Prototype]
  /เดินไม่ได้ /
 ตั้งค่าปุ่มคีย์บอร์ดเอง เกมไม่ตั้งให้  หรือกด restore
  ( fps ตก)

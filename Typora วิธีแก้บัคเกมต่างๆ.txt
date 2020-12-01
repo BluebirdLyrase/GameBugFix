@@ -1,0 +1,447 @@
+## [Starwar Republic Commando]
+
+FPS เกิน + เมาส์ไว
+
+```
+แตกไฟล์ SWRCGraphicsFix2.3 ใน  \Star Wars Republic Commando\GameData\System
+เปิด Console Command ในเกม (ไม่ใช่หน้าเมนู) ด้วย ~ SetFpsLimit 60
+```
+
+
+
+## [Resident Evil 5]
+
+```
+นำไฟล์ Resident Evil 5 ไปใส่ไว้ในไฟล์เกม
+```
+
+## [Command and Conquer / Zero Hour] 
+
+Resolusion 
+
+```
+นำไฟล์ใน แก้บัคเกม\Command and conquer\Zero hour\Resolusion
+ไปใส่ใน D:\Origin game\Command and Conquer Generals Zero Hour\Command and Conquer Generals Zero Hour หรือไฟล์อีกภาค
+```
+
+## [Assassin's Creed Origins]
+
+Shuttering
+
+```
+ปรับ AA เป็น Medium
+```
+
+
+
+## [pillars of Eternity II Deadfire]
+
+Shuttering / กระตุก
+
+```
+Disable in-game v-sync
+use Nvidai Control panel v-sync
+```
+
+ค้างหลังหน้าโลโก้ Stopworking
+
+```
+รอเดี๋ยวมันก็กลับมาโหลด
+```
+
+
+
+## [Warhammer 40,000 Dawn of War]
+
+[Warhammer 40,000 Dawn of War - Game of the Year Edition]
+[Warhammer 40,000 Dawn of War - Winter Assault]
+[Warhammer 40,000 Dawn of War - Dark Crusade]
+[Warhammer 40,000 Dawn of War - Soulstorm]
+
+Text too small / ตัวอักษรเล็ก
+
+```
+Setting > System > Display > ตรง Scale and Layout เลือก 100%
+```
+
+Shuttering Camera
+
+```
+หา Local.ini แก้ไขให้ screennovsync=1
+
+ใช้ NVidiaProfileInspector หา Warhammer 40000: Dawn of War แล้วตั้งค่าตามนี้
+Frame rate limiter : 60 fps
+Vertical Sync : Fast Sync
+```
+
+Full HD
+
+```
+Modifiying the Files yourself or use downloaded file
+download the Hex editor 
+http://mh-nexus.de/en/downloads.php?product=HxD
+Notepad++ 
+http://www.notepad-plus-plus.org/
+
+Go to your installation folder and open the file "Local.ini" with a Text-Editor and change your "screenheight" and "screenwidth" to your desired Resolution:
+
+1920x1080:
+screenheight=1080
+and
+screenwidth=1920
+
+1366x768:
+(It needs to be 1360x768 in the ini)
+screenheight=768
+and
+screenwidth=1360
+
+1680x1050:
+screenheight=1050
+and
+screenwidth=1680
+
+(Don't change the Resolution in the Options otherwise it will reset the Local.ini and you have to edit it again)
+
+Now you need to search and edit the hex values in all five .exe files, open them with HxD and search with (ctrl+f) for ABAAAA3F
+
+When you have a 16/9 monitor Replace it with 398EE33F for 16/10 change it to CCCCCD3F 
+
+*** don't forget to change the Datatype from Text-string to Hex-values:
+
+Open "W40k.exe" with the Hex editor and search (ctrl+f) for the hex value ABAAAA3F
+"W40kWA.exe" 
+"Platform.dll" 
+"spDx9.dll"
+"UserInterface.dll"
+*** You should find 2 occurrences of this value in this file. Replace both
+
+```
+
+## [Bluereflection]
+
+FPS ขึ้นๆลงๆ 30-60 
+
+```
+ตั้งค่า NVidiaProfileInspectorDmW ทำการ add application to current profile ตามรูป
+
+```
+
+คัตซีนภาพแตก![nvidia](D:\GameBugFix\bluereflection\nvidia.png)
+
+```
+ใส่ Blue Reflection Video Upgrade ไว้ใน D:\SteamLibrary\steamapps\common\BLUE REFLECTION\DATA\x64\Movie
+```
+
+## [RESONANCE OF FATE™/END OF ETERNITY™ 4K/HD EDITION]
+
+กระตุก
+
+```
+in-game option
+Shadow Buffer : Standard
+```
+
+## [Medal of hornor airbrone]
+
+เมาส์ลื่น + เปลีย่นปุ่มจอย
+
+```
+1. go to your Documents folder
+2. Find "EA Games"
+3. open the Medal Of Honour: Airbourne folder
+4. find a config file named MOHAinput
+5. open with glorious NOTEPAD and look for "MouseSensitivity=(NUMBER)" default number if you have sensitivity right down in-game should be 35.
+6. make dat shiz 15 or whatever. 15 worked nicely for me
+7. Git out dere and kill'm dem Nassi's. 
+
+OPTIONAL FUN EXTRA: make "bEnableMouseSmoothing=True" into "bEnableMouseSmoothing=false" for extra flavour.
+
+*****Play with controller can remap****
+Sorry to bump a very old thread but if another player searchs for the solution...
+You can manually remap the 360controller in :
+%USERPROFILE%\Documents\EA Games\Medal of Honor Airborne(tm)\Config\MOHAInput
+
+For exemple to fire with left trigger, you can replace :
+Bindings_Default=(Name="XboxTypeS_RightTrigger",Command="Fire | NextUpgrade")
+by :
+Bindings_Default=(Name="XboxTypeS_LeftTrigger",Command="Fire | NextUpgrade"
+
+ 
+```
+
+
+
+## [Call of duty Black ops 3]
+
+fps spike
+
+```
+เล่น borderless window
+```
+
+## [Call of duty 4 Modern warefare]
+
+Shuttering
+
+```
+เปิด Sync Every Frame และ Dua card
+```
+
+## [RWBY] 
+
+dpad ไม่ทำงาน
+
+```
+Navigate to your RWBY install folder, right-click the "rwby-ge.exe", 
+go to compatibility and chose compatibility mode for windows 7.
+```
+
+## [Aarklash: Legacy]
+
+จอเกิน 
+
+```
+กด alt + enter
+```
+
+
+
+## [F.e.a.r + ภาคเสริม]
+
+## [Condemned: Criminal Origins]
+
+ เดินไม่ได้ 
+
+```
+ตั้งค่าปุ่มคีย์บอร์ดเอง เกมไม่ตั้งให้  หรือกด restore
+```
+
+fps ตก
+
+```
+เอา dinput8 ใส่ไฟลฺเกมแก้ fps ตก 
+```
+
+03 TheL ค้าง
+
+```
+-โหลด quicksave ก่อนหน้านั้น
+```
+
+บัค disconnect form server
+
+```
+-Force restart
+```
+
+[F.E.A.R.: Extraction Point] 
+เล่น FullHD
+
+```
+C:\Users\Public\Documents\TimeGate Studios\FEARXP\settings.cfg
+```
+
+[F.E.A.R 2 Project Origin] 
+
+เมาส์ไว
+
+```
+Extract the file X3DAudio1_5.dll to your main game folder. For example: "C:\Program Files (x86)\Steam\steamapps\common\FEAR2\"
+
+
+"GammaB" "1.155709"
+"GammaG" "1.155709"
+"GammaR" "1.155709"
+"BitDepth" "32"
+"HardwareCursor" "1.000000"
+"ScreenWidth" "1920"
+"VSyncOnFlip" "1.000000"
+"DeviceName" "\\.\DISPLAY1"
+"ScreenHeight" "1080"
+"RestartRenderBetweenMaps" "0.000000"
+```
+
+
+
+Tom Clancy's Ghost Recon Wildlands
+แฟรมเรตตกมาก
+
+```
+-boderless 
+-off v-sync
+```
+
+## [Resident Evil Revelations 2 / Biohazard Revelations] 
+
+ค้างหน้าห้องบอส EP4
+
+```
+-เปลี่ยนเป็น 30FPSก่อนเข้าห้องบอส
+```
+
+Resident evil 7
+Shuttering
+
+```
+เปลี่ยน Texture เป็น medium
+```
+
+## [darksider 2]
+
+ค้างบอสสุดท้าย
+
+```
+เปิดใช้เบต้าแพทช
+```
+
+ fps ตก
+
+```
+ลดกราฟฟิค Shadow มาจนเหลือแค่เกือบเต็มเพื่อแก้
+```
+
+
+
+## [dead space]
+
+```
+ จอย ใช้ xinput ปิดจอย
+```
+
+
+
+## [Call of Duty: Ghosts]
+
+เมาส์กระตุก
+
+```
+http://steamcommunity.com/app/209160/discussions/0/666824801393726466/
+Go to Steam\SteamApps\common\Call of Duty Ghosts\players2. 
+Open config_mp.cfg. Change seta r_elevatedPriority "1" to seta r_elevatedPriority "0". 
+```
+
+## [Borderland 2 / tps]
+
+FPS drop
+
+```
+PhysX = low
+```
+
+## [Batman arkham origin]
+
+FPS drop
+
+```
+Physic = off
+```
+
+## [Spore]
+
+HOW TO FIX SPORE for 64 bit Windows 7 
+  1. ```
+       1. Open C:\Windows\regedit as administrator 
+          You can do this by clicking Computer, Local Disc C:/. Then Type in the search bar regedit. Right click on the application and click run as administrator. 
+     
+       2. Find 
+          HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432node\Electronic Arts\SPORE 
+          When I searched this in the edit/find it returned no results, 
+          so what you can do is click on each folder individually in the left hand panel.
+           o to HKEY_Local_Machine then the Software folder then the Wow6432node folder then the Electronics Arts 
+          folder and finally the Spore folder. Now you may have multiple Spore Folders, 
+          you want the folder that just says SPORE. NOT SPORE TM. 
+     
+       3. Add the following as string value if they are not there 
+          AppDir = SPORE 
+          DataDir = C:\Program Files (x86)\Electronic Arts\SPORE\Data\ <-----location ตัวเอง
+          InstallLoc = C:\Program Files (x86)\Electronic Arts\SPORE <-----location ตัวเอง
+          PlayerDir = My Spore Creations 
+          It is important to make sure and add these strings in the order that they are given. The most important thing though is to direct the folders to the right place; I am specifiacally talking about the DataDir and InstallLoc folders. The string should direct to wherever you installed your game, so the initial part can vary you just need to find what yours is, buyt the last part sill stay the same SPORE/Data/ and Spore for the other one. Mine was in C:/games/Steamapps/Common/SPORE/Data/ and the same without the data for the next one. Don't include the = sign in the data!!!!
+     ```
+
+       
+
+     ## [Mass effect 1]
+
+     DLC download https://help.ea.com/en-us/help/origin/origin/download-dlc-for-classic-origin-games/#masseffect
+
+
+run the game in new window
+
+I solved!!! 
+I went to "Steam>SteamApps>common>Mass Effect>Binaries and i right click on "Mass Effect.exe" then i change the compatibility as if it was windows xp.
+It works perfectly *_*
+(my mistake was that i was not changing the file into binaries)
+Hope to be helpfull for others!
+
+
+
+## [fallout4] 
+
+blackscreen
+เล่นในโหมด Borderless window
+
+สารพัดบัค
+แตกไฟล์
+- Unofficial Fallout 4 Patch-4598-2-0-6b-1546725686
+- Settlements - No Endless Gratitude-22839-1-1
+ใน C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data
+
+- AMEFiles-15639-1-0-0-6
+ใน C:\Program Files (x86)\Steam\steamapps\common\Fallout 4
+
+>>>>Select Properties, select the Compatibility tab, and then select Override high DPI scaling behavior, scaling performed by: Application.
+
+------------------------------------
+## BUG HDMI TV
+
+[Resolution limited 2]
+-Fallout 4
+-Lichdom: Battlemage / CrashHandler
+-Hyperdimension Neptunia Re;Birth1
+-Hyperdimension Neptunia Re;Birth2 Sisters Generation/ NeptuniaReBirth2.exe
+-Adventure Time The Secret Of The Nameless Kingdom/ AT3.exe
+-Megadimension Neptunia VII
+-Hyperdimension Neptunia Re;Birth3
+-CyberdimensionNeptunia4GoddessesOnline
+-OnechanbaraZ2
+-ทุกเกมเลยสาส
+
+on .exe file Select Properties,
+select the Compatibility tab,
+and then select Override high DPI scaling behavior,
+scaling performed by: Application.
+
+[FPS / Resolution limited]
+
+-Prototype 1
+-Prototype 2
+-Metal Gear Rissing
+-Crysis / Crysis war head
+
+-Crysis 2
+
+แก้โดยปรับ Resolution ของจอเป็น 1916*1080 หรือ 1919*1080 หรือใช้ Forcefix
+
+## [Syndicate]
+
+เกมกระตุก
+
+ปิด V-sync ของเกม
+เปิด V-sync ของnividia
+
+
+
+--------------------------------------
+BUG Controller 
+--------------------------------------
+
+-Nier automata
+-Prince of persia
+-Assassin creed 2 
+
+แก้ไขโดยปิด Steam controller configuration
+
+
+

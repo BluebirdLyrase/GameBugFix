@@ -236,6 +236,32 @@ Hope to be helpfull for others!
 ใน C:\Program Files (x86)\GOG Galaxy\Games\Clive Barkers Undying\System\System.ini
 UseDirectInput=True
 
+[Earthfall] game wont launch
+Found this for anyone with intel gen 11 or 12 processors. Fixed this game for me and another game as well. Hope this helps.
+
+Originally posted by Website:
+1. Open “File Explorer” (Win+E), right-click on “This PC”, and select “Properties”
+
+2. Select “Advanced System Settings”
+
+3. Select “Environment Variables” in the “Advanced” tab
+
+4. Select “New…” under “System variables”
+
+5. Input the text below and select “OK”
+
+Variable name: OPENSSL_ia32cap
+
+Variable value: ~0x200000200000000
+
+6. Confirm that the variable has been added successfully, then select “OK”
+
+That’s it! Good luck, and have fun!
+
+Many thanks to the PUBG devs for this fix
+
+Really hope this helps some of you guys as I loved this game and it broke my damn heart when it stopped working. Mucho happiness now though thanks to the PUBG Devs. :)
+
 
 [fallout4] blackscreen
 เล่นในโหมด Borderless window
